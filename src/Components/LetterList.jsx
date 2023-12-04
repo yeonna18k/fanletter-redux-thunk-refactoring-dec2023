@@ -32,9 +32,6 @@ const ListWrapper = styled.ul`
   gap: 20px;
   width: 500px;
   padding: 12px;
-  & p {
-    text-align: center;
-  }
 `;
 
 export default LetterList;

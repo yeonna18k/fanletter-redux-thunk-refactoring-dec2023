@@ -5,7 +5,7 @@ import Avatar from "Components/common/Avatar";
 import { getFormattedDate } from "util/date";
 import Button from "Components/common/Button";
 import { useSelector, useDispatch } from "react-redux";
-import { editLetter, deleteLetter } from "redux/modules/letters";
+import { editLetter, deleteLetter } from "redux/modules/letterSlice";
 
 function Detail() {
   const dispatch = useDispatch();
